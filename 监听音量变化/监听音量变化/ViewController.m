@@ -44,7 +44,7 @@
     
     
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];//注，ios9上不加这一句会无效，加了这一句后，
-    
+    NSLog(@"这是啥？");
     //在移除通知时候加上这句[[UIApplication sharedApplication] endReceivingRemoteControlEvents];
 
     // Do any additional setup after loading the view, typically from a nib.
